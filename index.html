@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caracas Barber Club</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- Tu hoja de estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVEGACIÓN ===================== -->
+  <nav>
+    <div class="nav-logo">Caracas Barber Club</div>
+    <ul class="nav-links">
+      <li><a href="#domicilio">Servicios</a></li>
+      <li><a href="#precios">Precios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://calendar.app.google/MGCrHYJrL1v219zF9" class="nav-cta" target="_blank">Reservar turno</a>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+
+    <!-- Reemplazá "logo.png" con el nombre real de tu archivo de logo -->
+    <img src="logo.png" alt="Caracas Barber Club Logo" class="logo-img" />
+
+    <p class="hero-tag">✦ Barbería a domicilio ✦</p>
+    <h1>Caracas<br /><em>Barber Club</em></h1>
+    <p class="hero-sub">Capital &amp; San Martín</p>
+
+    <div class="ornament">
+      <span class="ornament-line"></span>
+      <span>✦</span>
+      <span class="ornament-line reverse"></span>
+    </div>
+
+    <p class="hero-desc">
+      El mejor corte, sin que vos te muevas de tu casa. Llevamos la barbería
+      hasta donde estás, con la misma calidad de siempre.
+    </p>
+
+    <div class="hero-badges">
+      <span class="badge">A domicilio</span>
+      <span class="badge">Horarios flexibles</span>
+      <span class="badge">Capital &amp; San Martín</span>
+    </div>
+
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">
+        Reservar mi turno
+      </button>
+      <button class="btn-secondary" onclick="document.getElementById('precios').scrollIntoView({behavior:'smooth'})">
+        Ver precios
+      </button>
+    </div>
+
+  </section>
+
+  <!-- ===================== SERVICIOS / DOMICILIO ===================== -->
+  <section class="domicilio" id="domicilio">
+    <p class="sec-tag">Por qué elegirnos</p>
+    <h2 class="sec-title">La barbería <em>viene a vos</em></h2>
+    <p class="sec-desc">
+      Sin esperas, sin traslados. Agendás tu turno, nosotros llegamos
+      con todo el equipo listo.
+    </p>
+
+    <div class="features">
+      <div class="feat">
+        <span class="feat-icon">🏠</span>
+        <h3>En tu casa</h3>
+        <p>Nos adaptamos a tu comodidad con todo el equipo profesional.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">⏰</span>
+        <h3>Tu horario</h3>
+        <p>Mañana, tarde o noche. Coordinamos según tu disponibilidad.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">✂️</span>
+        <h3>Calidad real</h3>
+        <p>Mismo resultado que en la mejor barbería, sin diferencias.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">👑</span>
+        <h3>Trato de rey</h3>
+        <p>Atención personalizada, charla de barrio, ambiente relajado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRECIOS ===================== -->
+  <section class="precios" id="precios">
+    <p class="sec-tag">Nuestros servicios</p>
+    <h2 class="sec-title">Precios <em>claros</em></h2>
+    <p class="sec-desc">Sin letra chica. Lo que ves es lo que pagás.</p>
+
+    <!-- Aviso precios temporales -->
+    <div class="price-alert">
+      ⚠️ &nbsp; Precios válidos hasta fin de mayo 2026 — el próximo mes se actualizan
+    </div>
+
+    <div class="prices">
+
+      <div class="pcard hot">
+        <p class="psvc">Corte + Barba</p>
+        <div class="pline"></div>
+        <div class="pamount"><span class="psym">$</span>22.000</div>
+        <p class="pdesc">Corte completo y perfilado de barba</p>
+        <p class="pjub">👴 Jubilado: $16.000</p>
+      </div>
+
+      <div class="pcard">
+        <p class="psvc">Corte de cabello</p>
+        <div class="pline"></div>
+        <div class="pamount"><span class="psym">$</span>18.000</div>
+        <p class="pdesc">Lavado, corte y peinado</p>
+        <p class="pjub">👴 Jubilado: $13.000</p>
+      </div>
+
+      <div class="pcard">
+        <p class="psvc">Barba y perfilado</p>
+        <div class="pline"></div>
+        <div class="pamount"><span class="psym">$</span>10.000</div>
+        <p class="pdesc">Arreglo y delineado de barba</p>
+        <p class="pjub">👴 Jubilado: $8.000</p>
+      </div>
+
+    </div>
+
+    <p class="price-note">
+      * ¡No hay costo de visita a domicilio! Consultanos ante cualquier duda.
+    </p>
+  </section>
+
+  <!-- ===================== ZONAS ===================== -->
+  <section class="zonas" id="zonas">
+    <p class="sec-tag">Cobertura</p>
+    <h2 class="sec-title">Donde <em>llegamos</em></h2>
+    <p class="sec-desc">
+      Trabajamos en toda la zona. Consultanos si tenés dudas sobre tu barrio.
+    </p>
+    <div class="zona-tags">
+      <span class="ztag">📍 Capital Federal</span>
+      <span class="ztag">📍 San Martín</span>
+      <span class="ztag">📍 Zona Norte GBA</span>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="contacto" id="contacto">
+    <p class="sec-tag">Reservá tu turno</p>
+    <h2 class="sec-title">Escribinos <em>ahora</em></h2>
+
+    <div class="ccard">
+      <p>Reservá tu turno online o escribinos directamente. Es rápido y sin vueltas. 🤙</p>
+      <div class="cbts">
+
+        <!-- Botón de Google Calendar — turno online -->
+        <a href="https://calendar.app.google/MGCrHYJrL1v219zF9" class="cbtn ccal" target="_blank">
+          📅 &nbsp; Reservar turno online
+        </a>
+
+        <a href="https://wa.me/541158592846?text=Hola!%20Quiero%20reservar%20un%20turno%20en%20Caracas%20Barber%20Club" class="cbtn cwsp" target="_blank">
+          💬 &nbsp; Reservar por WhatsApp
+        </a>
+
+        <a href="https://www.instagram.com/caracasbarberclub" class="cbtn cig" target="_blank">
+          📸 &nbsp; Seguinos en Instagram
+        </a>
+
+        <a href="tel:+541158592846" class="cbtn ctel">
+          📞 &nbsp; Llamar / WhatsApp
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <p>© 2026 <em>Caracas Barber Club</em> — Capital &amp; San Martín · Hecho con ❤️ en el barrio</p>
+  </footer>
+
+</body>
+</html>
