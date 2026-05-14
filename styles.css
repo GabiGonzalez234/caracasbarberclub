@@ -124,8 +124,8 @@ nav {
 
 /* Logo — poné tu imagen en la misma carpeta que index.html y llamala "logo.png" */
 .logo-img {
-  width: 800px;
-  height: 800px;
+  width: 180px;
+  height: 180px;
   object-fit: contain;
   margin-bottom: 2rem;
   filter: drop-shadow(0 0 30px rgba(201, 168, 76, 0.35));
@@ -467,13 +467,14 @@ section {
 }
 
 .pjub {
-  margin-top: 0.6rem;
-  font-size: 0.78rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
   color: var(--gold);
-  opacity: 0.6;
-  font-weight: 300;
+  opacity: 0.85;
+  font-weight: 700;
   border-top: 1px solid rgba(201, 168, 76, 0.15);
-  padding-top: 0.6rem;
+  padding-top: 0.8rem;
+  letter-spacing: 0.5px;
 }
 
 .price-note {
